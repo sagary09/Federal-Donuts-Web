@@ -1,0 +1,105 @@
+html{
+	margin: 0;
+	
+}
+body {
+	margin: 0;
+	background-image: url("../images/chicken.jpeg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+	padding:10px;
+	width:330px;
+	height: auto;
+}
+
+.nav ul li{
+	display: inline;
+}
+
+.nav li {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 18px;
+	font-family: "Arial", sans serif;
+}
+
+.nav ul{
+	text-align: center;
+	margin: auto;
+}
+.nav{
+	background: rgba(167, 0, 0, .68);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 250px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color:white;
+}
+.footer{
+	background: #fff;
+	padding:3px;
+	margin-top:272px;
+	position:relative;
+}
+.footer p {
+	color: #969494;
+	font-size: 12pt;
+	text-align: center;
+	font-family: "Arial", sans serif;
+}
+.footer img{
+	width: 30px;
+	height: auto;
+}
+/* Menu page */
+
+body.menu .nav{
+	position: relative; 
+}
+body.menu{
+	background-image: url("../images/IMG_7192.jpg");
+}
+.title {
+	background: #23408f;
+	float: right;
+	width: 300px;
+	height:50px;
+}
+.title h1{
+	color: #fff;
+	font-size: 25pt;
+	padding-left: 20px;
+	padding-top: 4px;
+	font-family: "Arial", sans serif;
+	margin: 0;
+}
+.square{
+	background: rgba(255, 255, 255, .75);
+	width: cover;
+}
+.square h1{
+	padding-left: 20px;
+	color: #d2232a;
+}
+.square h2{
+	padding-left: 20px;
+	color: #23408f;
+	font-size: 18px;
+}
+.price  li{
+	display: inline;
+	text-decoration: none;
+	padding: 5px;
+}
+.chicken {
+	float: right;
+	
+}
+.donuts {
+	float: left;
+}
