@@ -33,7 +33,7 @@ body {
 	background: rgba(167, 0, 0, .68);
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-top: 250px;
+	
 }
 a {
 	text-decoration: none;
@@ -43,8 +43,9 @@ a {
 .footer{
 	background: #fff;
 	padding:3px;
-	margin-top:272px;
-	position:relative;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 .footer p {
 	color: #969494;
@@ -69,6 +70,7 @@ body.menu{
 	float: right;
 	width: 300px;
 	height:50px;
+	z-index: -1;
 }
 .title h1{
 	color: #fff;
@@ -80,26 +82,43 @@ body.menu{
 }
 .square{
 	background: rgba(255, 255, 255, .75);
-	width: cover;
+	position: absolute;
+	width: 100%;
+	z-index: -2;
 }
-.square h1{
+.items {
+	float: left;
+	width: 30%;
+	position: relative;
+	margin-left: 100px;
+}
+.items h1{
 	padding-left: 20px;
 	color: #d2232a;
+	font-family: "Arial", sans serif;
 }
-.square h2{
+.items h2{
 	padding-left: 20px;
 	color: #23408f;
 	font-size: 18px;
+	font-family: "Arial", sans serif;
 }
-.price  li{
-	display: inline;
-	text-decoration: none;
-	padding: 5px;
+.items li,p{
+	color: #797979;
+	list-style-type: none;
+	font-family: "Arial", sans serif;
 }
-.chicken {
-	float: right;
-	
+.items p{
+	padding-left: 20px;
+	font-family: "Arial", sans serif;
 }
-.donuts {
-	float: left;
+/*Locations*/
+
+body.locations{
+	background-image: url("../images/location.jpeg");
 }
+.locationlist ul{
+	color: #fff;
+	font-family: "Arial", sans serif;
+}
+
