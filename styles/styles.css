@@ -120,7 +120,9 @@ body.locations{
 .locationlist{
 	float: right;
 	background: #d2232a;
-	padding: 10px;
+	width:300px;
+	margin-top: 7px;
+	
 }
 
 .locationlist ul li{
@@ -129,5 +131,6 @@ body.locations{
 	font-size: 18pt;
 	padding: 10px;
 	list-style-type: none;
+	
 }
 
