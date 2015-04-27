@@ -117,8 +117,17 @@ body.menu{
 body.locations{
 	background-image: url("../images/location.jpeg");
 }
-.locationlist ul{
+.locationlist{
+	float: right;
+	background: #d2232a;
+	padding: 10px;
+}
+
+.locationlist ul li{
 	color: #fff;
 	font-family: "Arial", sans serif;
+	font-size: 18pt;
+	padding: 10px;
+	list-style-type: none;
 }
 
