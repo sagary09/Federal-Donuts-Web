@@ -141,6 +141,13 @@ body.locations{
 .map {
 	background:#d2232a;
 	padding: 20px;
-	width: 350px;
-	float: left;
+	width: 585px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
 }
+.map img{
+	height: 400px;
+	width: auto;
+	margin: auto;
+{
