@@ -122,15 +122,19 @@ body.locations{
 	background: #d2232a;
 	width:300px;
 	margin-top: 7px;
-	
 }
 
 .locationlist ul li{
 	color: #fff;
 	font-family: "Arial", sans serif;
 	font-size: 18pt;
-	padding: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
 	list-style-type: none;
-	
 }
 
+.locationlist li:hover,li:active{
+	background-color:#fff;
+	color: #d2232a;
+	cursor: pointer;
+}
