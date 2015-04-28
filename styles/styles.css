@@ -138,3 +138,9 @@ body.locations{
 	color: #d2232a;
 	cursor: pointer;
 }
+.map {
+	background:#d2232a;
+	padding: 20px;
+	width: 350px;
+	float: left;
+}
