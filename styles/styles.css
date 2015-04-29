@@ -179,20 +179,19 @@ body.store{
 }
 
 .store1{
-	width: 30%;
+	width: 20%;
 	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
+	padding: 20px;
 }
 .store2{
-	width: 30%;
+	width: 32%;
 	float: left;
-	margin-top: 20px;
+	padding: 20px;
 }
 .store3{
 	width:30%;
 	float:left;
-	margin-top: 20px;
+	padding: 20px;
 }
 #blue2{
 	height: 250px;
@@ -201,6 +200,11 @@ body.store{
 #grey, #blue, #red{
 	height: 150px;
 	width:auto;
+}
+.square p{
+	font-family: "Arial", sans serif;
+	font-size: 10pt;
+	color: #5c4b4a;
 }
 
 
