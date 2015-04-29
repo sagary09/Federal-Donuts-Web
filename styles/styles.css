@@ -56,6 +56,7 @@ a {
 .footer img{
 	width: 30px;
 	height: auto;
+	margin: auto;
 }
 /* Menu page */
 
@@ -64,6 +65,10 @@ body.menu .nav{
 }
 body.menu{
 	background-image: url("../images/IMG_7192.jpg");
+}
+.logo{
+	background: rgba(255, 255, 255, .75);
+	width: 100%;
 }
 .title {
 	background: #23408f;
@@ -81,7 +86,7 @@ body.menu{
 	margin: 0;
 }
 .square{
-	background: rgba(255, 255, 255, .75);
+	background: rgba( 255, 255, 255, .75);
 	position: absolute;
 	width: 100%;
 	z-index: -2;
@@ -141,13 +146,61 @@ body.locations{
 .map {
 	background:#d2232a;
 	padding: 20px;
-	width: 585px;
+	width: 500px;
 	float: right;
 	margin-top: 50px;
 	margin-right: 10px;
 }
 .map img{
-	height: 400px;
+	height: 300px;
 	width: auto;
+	position: relative;
+	margin-left: 30px;
+	
+}
+.map p{
+	color: #fff;
+	font-size: 11pt; 
+	text-align: left;
+	font-family: "Arial", sans serif;
+	margin-left: 30px;
+}
+.map h1{
+	color:#fff;
+	font-family: "Arial", sans serif;
+	font-size: 14pt;
+	text-align: center;
 	margin: auto;
-{
+	padding-bottom: 10px;
+}
+/*Store*/
+body.store{
+	background-image: url("../images/the-21-best-donut-shops-in-america.jpg");
+}
+
+.store1{
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.store2{
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+}
+.store3{
+	width:30%;
+	float:left;
+	margin-top: 20px;
+}
+#blue2{
+	height: 250px;
+	width: auto;
+}
+#grey, #blue, #red{
+	height: 150px;
+	width:auto;
+}
+
+
