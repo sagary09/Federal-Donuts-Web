@@ -12,6 +12,7 @@ body {
 	padding:10px;
 	width:330px;
 	height: auto;
+	margin-left:38%
 }
 
 .nav ul li{
@@ -30,7 +31,7 @@ body {
 	margin: auto;
 }
 .nav{
-	background: rgba(167, 0, 0, .68);
+	background: rgba(48, 48, 48, .68);
 	padding-top: 15px;
 	padding-bottom: 15px;
 	
@@ -38,7 +39,7 @@ body {
 a {
 	text-decoration: none;
 	cursor: pointer;
-	color:white;
+	color: #edeeef;
 }
 .footer{
 	background: #fff;
@@ -179,14 +180,14 @@ body.store{
 }
 
 .store1{
-	width: 18%;
+	width: 20%;
 	float: left;
 	padding: 10px;
 	margin-top:50px;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 .store2{
-	width: 28%;
+	width: 30%;
 	float: left;
 	padding: 10px;
 	margin-top:20px;
@@ -201,11 +202,14 @@ body.store{
 #blue2{
 	height: 180px;
 	width: auto;
-	padding-left: 8px;
+	padding-left: 5px;
 }
 #grey, #blue, #red, #red2{
 	height: 150px;
 	width:auto;
+}
+#red2{
+	padding-left: 5px;
 }
 .square p{
 	font-family: "Arial", sans serif;
