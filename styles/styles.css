@@ -127,27 +127,38 @@ body.locations{
 	background-image: url("../images/federal donuts.jpg");
 }
 .locationlist{
-	float: right;
-	background: #d2232a;
-	width:300px;
-	margin-top: 7px;
+	
 }
 
 .locationlist ul li{
-	color: #fff;
+	color: #d2232a;
 	font-family: "Arial", sans serif;
-	font-size: 18pt;
-	padding-top:10px;
-	padding-bottom:10px;
+	font-size: 14pt;
+	padding:20px;
 	list-style-type: none;
-	border-bottom: solid;
-	border-width: 1px;
+	display:inline;
 }
 
 .locationlist li:hover,li:active{
 	background-color:#fff;
 	color: #d2232a;
 	cursor: pointer;
+}
+.south {
+	width: 30%;
+	margin: 50px;
+}
+.south h1 {
+	font-size: 14pt;
+	font-family: "Arial", sans serif;
+	color: #4e4d4d;
+	
+}
+.south img{
+	height: 200px;
+	width: auto;
+	margin: 20px;
+	margin-left: 50px;
 }
 .map {
 	background:rgba(210, 35, 42, 0.75);
