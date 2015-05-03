@@ -126,6 +126,11 @@ body.menu{
 body.locations{
 	background-image: url("../images/federal donuts.jpg");
 }
+body.locations .square{
+	background: rgba( 255, 255, 255, .85);
+}
+
+
 
 .locationnames h1{
 	font-size: 14pt;
@@ -135,6 +140,8 @@ body.locations{
 #south, #north, #west, #center, #ballpark{
 	height: 200px;
 	width: auto;
+	border: solid;
+	border-color: #8e8e8e;
 }
 .south {
 	width: 20%;
