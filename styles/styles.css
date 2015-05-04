@@ -233,6 +233,18 @@ body.store{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.store5{
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.store6{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
 .product_variations {
 	background: transparent;
 	color: grey;
@@ -261,6 +273,15 @@ body.store{
 #onesie {
 	height: 180px;
 	width:auto;
+}
+#camp2{
+	height: 180px;
+	width: auto;
+	padding-left: 5px;
+}
+#giftcard{
+	height:180px;
+	width: auto;
 }
 .square p{
 	font-family: "Arial", sans serif;
