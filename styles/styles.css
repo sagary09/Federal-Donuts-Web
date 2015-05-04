@@ -241,6 +241,11 @@ body.store{
 	margin-bottom: 60px;
 	overflow: hidden;
 }
+#cart {
+	height:15px;
+	width: auto;
+	padding-left: 5px;
+}
 #blue2{
 	height: 180px;
 	width: auto;
