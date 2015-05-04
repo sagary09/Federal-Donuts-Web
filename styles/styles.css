@@ -233,11 +233,13 @@ body.store{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.product_variations{
-	background: grey;
-	color: white;
+.product_variations {
+	background: transparent;
+	color: grey;
 	font-family: "Arial", sans serif;
 	position: relative;
+	margin-bottom: 60px;
+	overflow: hidden;
 }
 #blue2{
 	height: 180px;
