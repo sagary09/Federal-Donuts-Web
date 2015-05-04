@@ -204,6 +204,12 @@ body.locations .square{
 body.store{
 	background-image: url("../images/the-21-best-donut-shops-in-america.jpg");
 }
+body.store .square h1{
+	font-size:12pt;
+	color: #4e4d4d;
+	text-align: center;
+	
+}
 
 .store1{
 	width: 20%;
