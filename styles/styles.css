@@ -218,12 +218,19 @@ body.store{
 	z-index:-3;
 	display: flex;
 	flex-direction: row;
+	justify-content:space-around;
 	
 }
 .product{
 	padding: 10px;
 	flex: 1,0,0;
-	
+}	
+
+.product p{
+	text-align: center;
+	font-family: "Arial", sans serif;
+	font-size: 10pt;
+	color: #5c4b4a;
 }
 
 .row2{
@@ -234,6 +241,7 @@ body.store{
 	z-index:-3;
 	display: flex;
 	flex-direction: row;
+	justify-content:space-around;
 }
 
 .product_variations {
@@ -249,39 +257,16 @@ body.store{
 	width: auto;
 	padding-left: 5px;
 }
-#blue2{
+
+.prod_img1{
 	height: 150px;
 	width: auto;
-	padding-left: 5px;
-}
-#grey, #blue, #red, #red2{
-	height: 150px;
-	width:auto;
-}
-#red2{
-	padding-left: 5px;
-}
-#onesie {
-	height: 150px;
-	width:auto;
-}
-#camp {
-	height: 150px;
-	width:auto;
-}
-#camp2{
-	height: 150px;
-	width: auto;
-	padding-left: 5px;
-}
-#giftcard{
-	height:150px;
-	width: auto;
-}
-.square p{
-	font-family: "Arial", sans serif;
-	font-size: 10pt;
-	color: #5c4b4a;
 }
 
+.prod_img{
+	height: 180px;
+	width: auto;
+	
+}
+ 
 
