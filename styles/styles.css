@@ -77,7 +77,7 @@ body.menu{
 	float: left;
 	width: 300px;
 	height:50px;
-	z-index: -1;
+	z-index: -2;
 	margin-top: 10px;
 }
 .title h1{
@@ -92,7 +92,7 @@ body.menu{
 	background: rgba( 255, 255, 255, .75);
 	position: absolute;
 	width: 100%;
-	z-index: -2;
+	z-index:-3;
 	margin-top: 30px;
 }
 .items {
@@ -125,7 +125,7 @@ body.menu{
 /*Locations*/
 
 body.locations{
-	background-image: url("../images/federal donuts.jpg");
+	background-image: url("../images/federal_donuts.jpg");
 }
 body.locations .square{
 	background: rgba( 255, 255, 255, .85);
@@ -204,53 +204,35 @@ body.locations .square{
 body.store{
 	background-image: url("../images/the-21-best-donut-shops-in-america.jpg");
 }
-body.store .square h1{
+
+.row1 h1, .row2 h1{
 	font-size:12pt;
 	color: #4e4d4d;
-	text-align: center;
-	
+}	
+.row1{
+	position:relative;
+	padding-top: 50px;
+	width: 1134px;
+	margin: 0 auto;
+	z-index:-3;
+	display: flex;
+	flex-direction: row;
+}
+.product{
+	padding: 10px;
+	flex: 1,0,0;
 }
 
-.store1{
-	width: 20%;
-	float: left;
-	padding: 10px;
-	margin-top:50px;
-	margin-left: 30px;
+.row2{
+	position:relative;
+	padding-top: 50px;
+	width: 1134px;
+	margin: 0 auto;
+	z-index:-3;
+	display: flex;
+	flex-direction: row;
 }
-.store2{
-	width: 30%;
-	float: left;
-	padding: 10px;
-	margin-top:20px;
-	
-}
-.store3{
-	width:40%;
-	float:left;
-	padding: 10px;
-	margin-top: 50px;
 
-}
-.store4{
-	width: 20%;
-	float: left;
-	margin-left:30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.store5{
-	width: 40%;
-	float: left;
-	margin-top: 20px;
-	margin-left: 30px;
-}
-.store6{
-	width: 20%;
-	float: left;
-	margin-top: 20px;
-	margin-left: 30px;
-}
 .product_variations {
 	background: transparent;
 	color: grey;
@@ -265,7 +247,7 @@ body.store .square h1{
 	padding-left: 5px;
 }
 #blue2{
-	height: 180px;
+	height: 150px;
 	width: auto;
 	padding-left: 5px;
 }
@@ -280,8 +262,12 @@ body.store .square h1{
 	height: 180px;
 	width:auto;
 }
+#camp {
+	height: 150px;
+	width:auto;
+}
 #camp2{
-	height: 180px;
+	height: 150px;
 	width: auto;
 	padding-left: 5px;
 }
