@@ -269,7 +269,27 @@ body.store .square{
 .prod_img{
 	height: 180px;
 	width: auto;
+}
+/*Contact*/
+
+#contact_form{
+	background: rgba( 255, 255, 255, .75);
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding:10px;
 	
 }
+.contact_row{
+	margin: 0 auto;
+	padding: 10px;
+}
+.contact_row label{
+	font-family: "Arial", sans serif;
+	font-size: 10pt;
+	color: #5c4b4a; 
+	padding: 10px;
+}
+
  
 
