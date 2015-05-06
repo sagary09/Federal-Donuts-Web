@@ -281,12 +281,12 @@ body.store .square{
 	
 }
 .contact_row{
-	margin: 0 auto;
+	margin-left: 20px;
 	padding: 10px;
 }
 .contact_row label{
 	font-family: "Arial", sans serif;
-	font-size: 10pt;
+	font-size: 14pt;
 	color: #5c4b4a; 
 	padding: 10px;
 }
