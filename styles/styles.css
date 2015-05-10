@@ -477,3 +477,23 @@ body.our_family .square {
 	width: 250px;
 	height:auto;
 }
+/*Join Our List*/
+
+body.join_list {
+	background: url("../images/the-21-best-donut-shops-in-america.jpg");
+}
+body.join_list .square{
+	padding-bottom: 40px;
+}
+body.join_list .frm_header{
+	width: 600px;
+	margin-top:0;
+	margin-bottom: 20px;
+}
+body.join_list #contact_form{
+	padding-left:0;
+	padding-top:0;
+}
+body.join_list #submit_button{
+	margin-top: 10px;
+}
