@@ -221,7 +221,7 @@ body.store .square{
 .row1{
 	position:relative;
 	padding-top: 50px;
-	width: 1134px;
+	width: 1142px;
 	margin: 0 auto;
 	z-index:-3;
 	display: flex;
@@ -234,9 +234,18 @@ body.store .square{
 	flex: 1,0,0;
 }	
 .selectBox {
-	width:100px;
-	font-size:12pt;
+	background-image: url("../images/select-arrow@2x.png"); 
+	background-repeat: no-repeat;
+	background-position: right;
+	width:90px;
+	font-size: 10pt;
+	height: 25px;
+	text-align: center;
+	padding: 0;
 	font-family: "Arial", sans serif;
+    border-color: #D8D8D8;
+	background-color: #FFF;
+}
 }
 
 .product p{
