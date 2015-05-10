@@ -131,7 +131,7 @@ body.menu{
 /*Locations*/
 
 body.locations{
-	background-image: url("../images/federal_donuts.jpg");
+	background-image: url("../images/fednuts2ext.jpg");
 }
 body.locations .square{
 	background: rgba( 255, 255, 255, .85);
@@ -207,10 +207,11 @@ body.locations .square{
 }
 /*Store*/
 body.store{
-	background-image: url("../images/fednuts2ext.jpg");
+	background-image: url("../images/mg_6296.jpg");
 }
 body.store .square{
-	background: rgba( 255, 255, 255, .85);
+	background: rgba( 255, 255, 255, .65);
+	padding-bottom: 20px;
 }
 
 .row1 h1, .row2 h1{
@@ -219,15 +220,28 @@ body.store .square{
 	color: #4e4d4d;
 }	
 .row1{
+background:rgba(255, 255, 255, 0.91);
 	position:relative;
-	padding-top: 50px;
 	width: 1142px;
 	margin: 0 auto;
+	margin-top:50px;
 	z-index:-3;
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
-	
+}
+.row2{
+	background: rgba(255, 255, 255, 0.91);
+	position:relative;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 1142px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	z-index:-3;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
 }
 .product{
 	padding: 10px;
@@ -263,17 +277,7 @@ body.store .square{
 	font-size: 10pt;
 	color: #5c4b4a;
 }
-.row2{
-	position:relative;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 1134px;
-	margin: 0 auto;
-	z-index:-3;
-	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-}
+
 #camp{
 	margin-top:31px;
 }
@@ -308,7 +312,7 @@ body.store .square{
 
 /*Contact*/
 body.contact {
-	background-image: url("../images/mg_6296.jpg");
+	background-image: url("../images/federal_donuts1.jpg");
 }
 body.contact .square{
 	padding-bottom: 30px;
