@@ -4,17 +4,23 @@ html{
 }
 body {
 	margin: 0;
-	background-image: url("../images/chicken.jpeg");
+	background-image: url("../images/chicken.gif");
 	background-repeat: no-repeat;
     background-size: cover;
 }
+
 #logo{
 	padding:10px;
 	width:330px;
 	height: auto;
 	margin-left:38%
 }
-
+#img1{
+	display: block;
+}
+.panes{
+	display: none;
+}
 .nav ul li{
 	display: inline;
 }
@@ -68,7 +74,7 @@ body.menu .nav{
 	position: relative; 
 }
 body.menu{
-	background-image: url("../images/IMG_7192.jpg");
+	background-image: url("../images/IMG_7192.gif");
 }
 .logo{
 	background: rgba(255, 255, 255, .75);
@@ -131,7 +137,7 @@ body.menu{
 /*Locations*/
 
 body.locations{
-	background-image: url("../images/fednuts2ext.jpg");
+	background-image: url("../images/fednuts2ext.gif");
 }
 body.locations .square{
 	background: rgba( 255, 255, 255, .85);
@@ -207,7 +213,7 @@ body.locations .square{
 }
 /*Store*/
 body.store{
-	background-image: url("../images/mg_6296.jpg");
+	background-image: url("../images/mg_6296.gif");
 }
 body.store .square{
 	background: rgba( 255, 255, 255, .65);
@@ -219,8 +225,8 @@ body.store .square{
 .row1 h1, .row2 h1{
 	font-family: "Arial", sans serif;
 	font-size: 12pt;
-	color: #A6A6A6;
-	background: rgba(232, 232, 232, 1);
+	color: #fff;
+	background: rgba(190, 189, 189, 1);
 	padding: 10px;
 }	
 .row1{
@@ -256,7 +262,7 @@ background:rgba(255, 255, 255, 0.91);
 	padding: 10px;
 	flex: 1,0,0;
 	padding-top: 5px;
-	background: rgba(174, 170, 170, 0.1);
+	background:rgba(213, 213, 213, 0.5);
 	margin-top: 10px;
 }	
 .product p{
@@ -322,7 +328,7 @@ background:rgba(255, 255, 255, 0.91);
 
 /*Contact*/
 body.contact {
-	background-image: url("../images/federal_donuts1.jpg");
+	background-image: url("../images/federal_donuts1.gif");
 }
 body.contact .square{
 	padding-bottom: 30px;
@@ -349,7 +355,7 @@ body.contact .square{
 	background: #fff;
 	font-family: "Arial", sans serif;
 	font-size: 14pt;
-	color: #DBDBDB; 
+	color: ##7E7E7E; 
 }
 
 #submit_button{
@@ -369,7 +375,7 @@ body.pre-orders .square{
 	padding-bottom: 30px;
 }
 body.pre-orders {
-	background: url("../images/NewFinds1_lowres.jpg");
+	background: url("../images/NewFinds1_lowres.gif");
 }	
 #pre-orders_form{
 	background: rgba(0, 0, 0, 0.68);
@@ -414,7 +420,7 @@ body.pre-orders {
 	background: #fff;
 	font-family: "Arial", sans serif;
 	font-size: 12pt;
-	color: rgb(153, 153, 153);
+	color: #7E7E7E;
 	border-radius: 0;
 	width: 768px;
 }
@@ -440,7 +446,7 @@ body.pre-orders {
 }
 /*Our Family*/
 body.our_family {
-	background: url("../images/filling-donuts.jpg");
+	background: url("../images/filling-donuts.gif");
 }
 body.our_family .square {
 	background: rgba( 255, 255, 255, .85);
@@ -490,7 +496,7 @@ body.our_family .square {
 /*Join Our List*/
 
 body.join_list {
-	background: url("../images/the-21-best-donut-shops-in-america.jpg");
+	background: url("../images/the-21-best-donut-shops-in-america.gif");
 }
 body.join_list .square{
 	padding-bottom: 40px;
